@@ -1,0 +1,19 @@
+
+name: vovo_tamagotchi
+description: Um jogo divertido e viciante em pixel art.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.8.0
+  flame_audio: ^1.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
