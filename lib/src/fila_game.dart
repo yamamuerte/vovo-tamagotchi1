@@ -7,9 +7,7 @@ class FilaGame extends FlameGame {
   double paciencia = 100;
 
   @override
-  Future<void> onLoad() async {
-    // Carregar imagens e sons aqui
-  }
+  Future<void> onLoad() async {}
 
   @override
   void update(double dt) {
@@ -30,6 +28,5 @@ class FilaGame extends FlameGame {
   @override
   void render(Canvas canvas) {
     super.render(canvas);
-    // Desenhar elementos do jogo aqui
   }
 }
